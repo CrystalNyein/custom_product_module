@@ -1,0 +1,3 @@
+id,name,mode_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_custom_product_user,Custom Product User,model_custom_product,base.group_user,1,1,1,0
+access_custom_product_manager,Custom Product Manager,model_custom_product,base.group_system,1,1,1,0

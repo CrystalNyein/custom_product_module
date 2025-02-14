@@ -1,0 +1,10 @@
+<odoo>
+<t t-name="custom_product_module.ProductTemplate">
+<t t-call="web.html_container">
+  <t t-foreach="docs" t-as="product">
+    <p>Product:<t t-esc="product.name"/></p>
+    <p>Price:<t t-esc="product.price"/></p>
+  </t>
+</t>
+</t>
+</odoo>
